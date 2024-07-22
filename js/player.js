@@ -20,7 +20,7 @@
 
 		Mario.Entity.call(this, {
 			pos: pos,
-			sprite: new Mario.Sprite('sprites/player.png', [800,320],[16,16],0),
+			sprite: new Mario.Sprite('sprites/player.png', [80,32],[160,160],0),
 			hitbox: [0,0,16,16]
 		});
 	};
